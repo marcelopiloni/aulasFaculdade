@@ -1,0 +1,13 @@
+https://medium.com/data-hackers/aprendizado-supervisionado-x-não-supervisionado-ca79b522659d 
+
+https://www.ibm.com/br-pt/topics/supervised-learning#:~:text=O%20aprendizado%20supervisionado%2C%20conhecido%20também,ou%20preveem%20resultados%20com%20precisão.
+
+https://medium.com/cinthiabpessanha/random-forest-como-funciona-um-dos-algoritmos-mais-populares-de-ml-cc1b8a58b3b4
+
+https://medium.com/brasil-ai/knn-k-nearest-neighbors-1-e140c82e9c4e
+
+https://rodrigomodesto.medium.com/algoritmo-k-nearest-neighbors-knn-uma-abordagem-matemática-46f59c5c2f99
+
+https://medium.com/turing-talks/turing-talks-12-classificação-por-svm-f4598094a3f1
+
+https://medium.com/@msremigio/regressão-logística-logistic-regression-997c6259ff9a
