@@ -1,0 +1,109 @@
+* {
+    background-color: #ffffff;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background:rgb(13, 170, 175);
+    ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerMain{
+    width: 100%;
+    padding: 35px 10%;
+    margin-right: calc(10% - 30px);
+}
+
+
+main.row{
+    display: flex;
+}
+
+.coluna header.coluna-Titulo{
+    color: rgb(13, 170, 175);
+    margin-bottom: 20px;
+}
+
+.coluna .content {
+    padding: 0 30px;
+    border-left: solid 2px #bababa;
+}
+
+.coluna .content .box{
+    position: relative;
+    padding: 20px;
+    border: solid 1px #20dab4;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-bottom: 20px;
+}
+
+.coluna .content .box:hover {
+    box-shadow: 0px 3px 12px 0px #0daaaf;
+    border: solid 1px transparent;
+}
+
+.coluna .content .box::before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    right: calc(100% + 22px);
+    top: 0;
+    background-color: #13d8bd;
+    border: solid 2px #fff;
+}
+
+.box h4{
+    position: relative;
+    color: #0daaaf;
+    font-weight: 600;
+}
+
+.box h3{
+    font-size: 18px;
+    padding: 10px 0 +6px;
+    color: #313b44;
+}
+
+.box p{
+    line-height: 1.2;
+    color: #666;
+    font-size: 17px;
+}
+
+
+.logoUniSenai {
+    display: block;
+    margin: 0 auto 20px; 
+    transition: transform 0.3s ease; 
+    width: 250px; 
+    height: auto; 
+}
+
+.logoUniSenai:hover {
+    transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 768px){
+    .row .coluna:nth-child(2){
+        margin-top: 30px;
+    }
+
+    .coluna .content{
+        padding: 0 6px;
+    }
+
+    .box p {
+        font-size: 16px
+    }
+}
