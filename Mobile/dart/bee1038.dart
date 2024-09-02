@@ -12,7 +12,7 @@ void main() {
       total = qtd * 4.50;
       break;
     case 3:
-      total = qtd * 5.00;
+      total = qtd * 5.00; 
       break;
     case 4:
       total = qtd * 2.00;
